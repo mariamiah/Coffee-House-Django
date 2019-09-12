@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{% block title%}
+Store Details
+{% endblock %}
+{% block content %}
+<p>This is  {{store}}</p>
+<p>It is located in {{store.address}}</p>
+<p>It is in the great {{store.city}} city</p>
+<p>In the state of {{store.state}}</p>
+{% endblock %}

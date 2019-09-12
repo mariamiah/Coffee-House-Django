@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+All Stores
+{% endblock %}
+{% block content %}
+{% for store in stores %}
+<ul>
+    <li><a href="{% url 'stores:detail' store.id %}">{{store}}</a></li>
+</ul>
+{% endfor %}
+{% endblock %}
