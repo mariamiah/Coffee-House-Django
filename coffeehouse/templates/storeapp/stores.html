@@ -3,7 +3,9 @@
 All Stores
 {% endblock %}
 {% block content %}
+<h1>Store details</h1>
 {% for store in stores %}
+
 <ul>
     <li><a href="{% url 'stores:detail' store.id %}">{{store}}</a></li>
 </ul>
