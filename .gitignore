@@ -5,3 +5,5 @@ __pycache__/*
 **/__pycache__
 **/**/__pycache__
 coffeehouse/storeapp/migrations
+.DS_Store
+coffeehouse/.DS_Store
